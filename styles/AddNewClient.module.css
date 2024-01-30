@@ -1,0 +1,308 @@
+.container {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.coach {
+    margin-left: 5%;
+}
+
+.coach p span {
+    color: #67BC2A;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #67BC2A;
+    margin: auto;
+}
+
+
+.uploaddiv{
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+.fileInputLabel {
+    display: inline-block;
+    padding: 7px 12px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .fileInputLabel:active{
+    scale: 0.9;
+  }
+
+
+  .fileInput {
+    display: none;
+  }
+
+  .fileInputLabel:hover{
+    opacity: 0.7;
+  }
+
+.data {
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #67BC2A;
+    font-size: 19px;
+    width: 90%;
+    height: auto;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.name input {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 5px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.phone input {
+    outline: none;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.city {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.city input {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 5px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.email input {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 5px;
+}
+
+.joining {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.joining input {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 5px;
+}
+
+.sponsered {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.sponsered input {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 5px;
+}
+
+.save {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.save button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    background-color: #67BC2A;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+}
+
+.save button:active{
+    scale: 0.9;
+}
+
+.save button:hover{
+    opacity: 0.8;
+}
+
+
+.topmsgs {
+    padding-top: 10px;
+    height: 60px;
+}
+
+
+
+.showLoading, .showLoading1 {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(11, 230, 44);
+  }
+  
+  .showError, .showError1 {
+    width: 30%;
+    background-color: rgb(230, 27, 27);
+    color: rgb(252, 231, 231);
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-size: 19px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .showMessage, .showMessage1 {
+    background-color: rgb(92, 238, 92);
+    color: rgb(36 139 36);
+    text-align: center;
+    width: 30%;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  
+  .showLoading1 {
+  margin-top: 0;
+  }
+  
+  .showError1 {
+    margin-top: 0;
+  }
+  
+  .showMessage1 {
+    margin-top: 0;
+  }
+  
+  
+  
+  .Topmessages{
+    height: 100px;
+  }
+
+
+
+
+
+
+@media screen and (max-width:900px){
+           .data{
+              display: block;
+              text-align: center;
+           }
+
+           .name, .email, .phone, .city, .joining, .sponsered{
+            margin: auto;
+            width: 100%;
+            padding-bottom: 15px;
+           }
+
+           .container input{
+              width: 80%;
+              margin: auto;
+           }
+
+           .coach{
+            margin: auto;
+            padding-bottom: 20px;
+           }
+   }

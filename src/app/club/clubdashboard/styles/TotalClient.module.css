@@ -1,0 +1,228 @@
+.container {
+    padding-top: 3%;
+    /* width: 100vw; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.record {
+    width: 100%;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.record_link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 35vw;
+    height: 2%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #888;
+    /* margin-top: 6%; */
+}
+
+.record_link>button {
+
+    color: white;
+    font-size: 21px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 18px;
+    word-wrap: break-word;
+
+    background: #67BC2A;
+
+    /* box-shadow: 10px 9px 22px rgba(20, 78, 227, 0.38); */
+    border-radius: 15px;
+    border: 2px #67BC2A solid;
+
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 35px;
+    padding-right: 35.05px;
+
+
+}
+
+.record_link>input {
+    height: 50%;
+    width: 80%;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 1px 5px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+
+    color: #666666;
+    font-size: 17px;
+    font-family: Inter;
+    font-weight: 300;
+    line-height: 28px;
+    word-wrap: break-word
+}
+
+.icon {
+    margin: 10px;
+}
+
+.add {
+    display: flex;
+    flex-direction: column;
+}
+
+.new_client {
+    background-color: #67BC2A;
+    display: flex;
+    flex-direction: row;
+    height: 7vh;
+    width: 15vw;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.client {
+    width: 15vw;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #E6F9D6;
+    justify-content: space-evenly;
+
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.client>div {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 11px;
+    color: #4D4D4D;
+    margin-left: 1rem;
+
+}
+
+.view {
+    display: flex;
+    flex-direction: row;
+    border-radius: 7px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.table_head {
+    height: 8vh;
+    width: 85%;
+    display: grid;
+    /* background-color: black; */
+    /* grid-template-columns: 80px 220px 220px 140px 180px 150px 150px 120px; */
+    grid-template-columns: 1fr 3fr 3fr 4fr 2fr 3fr 2fr 4fr 2fr;
+    gap: 1px;
+    border-radius: 15px;
+
+    /* grid-template-rows: 22px 22px 22px; */
+}
+
+.items {
+    height: 90%;
+    /* width: 11px; */
+    background-color: #BEBEBE;
+    text-align: center;
+    vertical-align: middle;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 18px;
+    color: black;
+}
+
+.table_items {
+    height: 98%;
+    /* width: 11px; */
+    background-color: white;
+    color: #5E5E5E;
+    text-align: center;
+    vertical-align: middle;
+    /* border: solid gray; */
+
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+@media (min-width:350px) and (max-width:550px) {
+    .record{
+        width: 90%;
+    }
+    .record_link {
+        width: 100%;
+        height: 10%;
+        
+    }
+
+    .record_link>input {
+        height: 5vh;
+        width: 90%;
+        color: #666666;
+        font-size: 15px;
+    }
+
+    .record_link>button {
+        padding: 0.75rem 1rem;
+    }
+    .new_client {
+        margin-top: 20px;
+        width: 60vw;
+    }
+
+    .client {
+        width: 60vw;
+    }
+
+    .view {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .items {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .table_items {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}

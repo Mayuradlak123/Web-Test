@@ -1,0 +1,123 @@
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    padding-top: 15px;
+    background-color: #121212;
+  }
+  
+   
+  .logo {
+    width: 120px;
+    height: auto;
+    margin-left: 200px;
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navLinks li:first-child a {
+    margin-right: 70px;
+  }
+  
+  
+  .navLinks li a {
+    text-decoration: none;
+    color: #878787;
+  }
+  
+  .contact{
+    margin-right: 100px;
+  }
+  
+  .contactshow{
+    display: none;
+  }
+  
+  .contact a {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    /* border: 2.65px solid #80DB3A; */
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+    text-decoration: none;
+    color: #878787;
+  }
+  
+  .menuicon{
+    color: black;
+    font-size: 26px;
+    display: inline;
+    font-weight: 600;
+    display: none;
+  }
+  
+  
+  @media screen and (min-width:951px) {
+    .nav ul {
+      display: flex !important;
+    }
+  }
+  
+  @media screen and (max-width:950px) {
+    .navLinks li:first-child a {
+      margin-right: 0px;
+    }
+  
+  
+  .iconmenucontainer{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+  }
+  
+    .menuicon {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    .contact a{
+      display: none;
+    }
+  
+    .contact, .logo{
+      margin: 0;
+    }
+  
+    .logo {
+      width: 60px;
+      height: auto;
+      margin-left: 20px;
+      margin-right: auto;
+    }
+  
+  .nav{
+    display: block;
+    padding: 0;
+  }
+  .contactshow{
+    display: block;
+  }
+  
+    .nav ul {
+      padding: 5px;
+      width: 100%;
+      display: none;
+      text-align: center;
+      margin-right: 0px;
+      margin-left: 0px;
+      margin-top: -2px;
+      border-bottom: 1px solid grey;
+    }
+  
+    .nav ul li {
+      display: block;
+      line-height: 2;
+    }
+  }

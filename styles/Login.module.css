@@ -1,0 +1,204 @@
+.background {
+    background-color: #121212;
+    padding-top: 80px;
+}
+
+.border {
+    border: 2px dashed white;
+    border-radius: 15px;
+    max-width: 1350px;
+    margin: auto;
+    display: block;
+}
+
+.photo {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.container {
+    display: flex;
+    background-image: url('/login_bg.png');
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.left {
+    height: 787px;
+    width: 60%;
+}
+
+.right {
+    height: 787px;
+    width: 40%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.right_title {
+    color: #FFF;
+    text-shadow: 0px 3.7538461685180664px 3.7538461685180664px rgba(0, 0, 0, 0.25), 0px 3.7538461685180664px 3.7538461685180664px rgba(0, 0, 0, 0.25), 0px 3.7538461685180664px 3.7538461685180664px rgba(0, 0, 0, 0.25), 0px 3.7538461685180664px 3.7538461685180664px rgba(0, 0, 0, 0.25), 0px 3.7538461685180664px 3.7538461685180664px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 42.083px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135.5%;
+    text-transform: capitalize;
+}
+
+
+.texting {
+    position: absolute;
+    left: 8%;
+    bottom: -20%;
+    z-index: 1;
+}
+
+.texting>h2 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 56.43px;
+    word-wrap: break-word;
+    margin-left: 50px;
+}
+
+.texting>h1 {
+    color: #7AC143;
+    font-size: 4.2rem;
+    font-family: Outfit;
+    font-weight: 800;
+    line-height: 92.71px;
+    word-wrap: break-word;
+    margin-left: 50px;
+}
+
+.brief {
+    color: white;
+    font-size: 11.39px;
+    font-family: Poppins;
+    font-weight: 500;
+    letter-spacing: 0.34px;
+    word-wrap: break-word
+}
+
+.info_gather {
+    display: flex;
+    flex-direction: column;
+    background: #ECECEC;
+    width: 70%;
+    height: 7%;
+    border-radius: 12.21px;
+    margin-top: 5%;
+}
+
+.info_gather>p {
+    color: #2F2F2F;
+    font-size: 11px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 13.23px;
+    word-wrap: break-word;
+    padding: 4px 20px;
+}
+
+.info_gather_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.info_gather_bottom>input {
+    width: 80%;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 1px 5px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+}
+
+#pass>input {
+    width: 75%;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7AC143;
+    width: 70%;
+    height: 7%;
+    border-radius: 12.21px;
+    margin-top: 5%;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.login:active {
+    background-color: #91dd57;
+}
+
+.forgot_container {
+    width: 70%;
+    margin-top: 2rem;
+    text-transform: capitalize;
+
+}
+
+.forgot {
+    color: white;
+    font-size: 13.02px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 17.65px;
+    word-wrap: break-word;
+}
+
+.forgot>span {
+    color: #7AC143;
+    font-size: 13.02px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 17.65px;
+    word-wrap: break-word;
+}
+
+.register {
+    color: #7AC143;
+    font-size: 13.02px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 17.65px;
+    word-wrap: break-word;
+    margin-top: 4rem;
+}
+
+.register>span {
+    color: white;
+    font-size: 13.02px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 17.65px;
+    word-wrap: break-word;
+}
+
+
+/* .info_gather_top{
+    font-family: Poppins;
+    font-size: 9.767px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135.5%;
+} */

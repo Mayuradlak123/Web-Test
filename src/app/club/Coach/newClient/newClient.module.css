@@ -1,0 +1,227 @@
+.container {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.coach {
+
+    margin-left: 5%;
+}
+
+.coach>p>span {
+    color: #67BC2A;
+}
+
+.pic {
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    height: 20%;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: aqua;
+    /* margin-left: 5%; */
+    margin-top: 3%;
+    /* margin-bottom: 6%; */
+}
+
+.avatarButton {
+    /* position: absolute; */
+    /* margin-left: 5.5%; */
+    width: 50%;
+    background-color: #67BC2A;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.data {
+    margin-top: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #67BC2A;
+    font-size: 1.3rem;
+    width: 90%;
+    height: auto;
+
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.name>input {
+    background-color: white;
+    width: 100%;
+    height: 5vh;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.phone>input {
+
+    background-color: white;
+    width: 100%;
+    height: 5vh;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.city {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.city>input {
+    background-color: white;
+    width: 100%;
+    height: 5vh;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.email>input {
+    background-color: white;
+    width: 100%;
+    height: 5vh;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+}
+
+.joining {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.joining>input {
+    background-color: white;
+    width: 100%;
+    height: 5vh;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+}
+
+.sponsered {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.sponsered>input {
+    background-color: white;
+    width: 100%;
+    height: 5vh;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+}
+
+.save {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: #67BC2A; */
+    height: 7vh;
+    margin: 5% 0%;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.save>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #67BC2A;
+    height: 7vh;
+    border-radius: 10px;
+}
+
+
+
+@media (min-width: 350px) and (max-width:550px) {
+
+    .container {
+        background-position: center;
+    }
+
+    .coach {
+        margin-top: 2%;
+    }
+
+    .pic {
+        width: 100%;
+    }
+
+    .avatar {
+        margin: auto;
+    }
+
+    .avatarButton {
+        margin: auto;
+        max-width: 30%;
+    }
+
+    .data>div {
+        width: 100%;
+    }
+}

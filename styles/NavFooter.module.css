@@ -1,0 +1,242 @@
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  padding-top: 15px;
+  background-color: #C1D6B1;
+}
+
+ 
+.logo {
+  width: 80px;
+  height: auto;
+  margin-left: 200px;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+}
+
+.navLinks li:first-child a {
+  margin-right: 70px;
+}
+
+
+.navLinks li a {
+  text-decoration: none;
+  color: #878787;
+}
+
+.contact{
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+.clublogin a{
+  background-color: #80DB3A;
+  color: white !important;
+  font-weight: 200 !important;
+  border-radius: 10px;
+}
+
+.contactshow{
+  display: none;
+}
+
+.contact a {
+  margin: 0.6rem;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+  border: 2.65px solid #80DB3A;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  color: #878787;
+}
+
+.menuicon{
+  color: black;
+  font-size: 26px;
+  display: inline;
+  font-weight: 600;
+  display: none;
+}
+
+
+@media screen and (min-width:951px) {
+  .nav ul {
+    display: flex !important;
+  }
+}
+
+@media screen and (max-width:950px) {
+  .navLinks li:first-child a {
+    margin-right: 0px;
+  }
+
+
+.iconmenucontainer{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+}
+
+  .menuicon {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .contact a{
+    display: none;
+  }
+
+  .contact, .logo{
+    margin: 0;
+  }
+
+  .logo {
+    width: 60px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: auto;
+  }
+
+.nav{
+  display: block;
+  padding: 0;
+}
+.contactshow{
+  display: block;
+}
+
+  .nav ul {
+    padding: 5px;
+    width: 100%;
+    display: none;
+    text-align: center;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: -2px;
+    border-bottom: 1px solid grey;
+  }
+
+  .nav ul li {
+    display: block;
+    line-height: 2;
+  }
+}
+
+
+
+
+/* --------- Footer -------------------------------------------------------------------------- */
+
+.footercontainer{
+  max-width: 1200px;
+  padding-bottom: 100px;
+  margin: auto;
+  color: rgb(6, 49, 8);
+}
+.fbackground{
+  background: linear-gradient(96deg, rgba(122, 193, 67, 0.50) 1.42%, rgba(255, 184, 49, 0.50) 58.46%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+.footergrid{
+  display: flex;
+}
+
+.flogopara{
+  margin-top: 30px;
+}
+.flogopara p{
+padding: 5px;
+font-weight: 600;
+font-family: 'Outfit', sans-serif;
+}
+
+.fgriditem1{
+  margin-top: 30px;
+  flex: 1;
+  padding-left: 15px;
+}
+.fgriditem2{
+  flex: 1;
+  margin-top: 150px;
+  padding-right: 15px;
+}
+
+
+.Fgridcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 15px;
+}
+
+.Fgriditem {
+  padding: 20px;
+  text-align: center;
+}
+
+.Fgriditem11{
+  margin-bottom: 20px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 19px;
+}
+.Fgriditem11 a {
+  text-decoration: none;
+  color: rgb(6, 49, 8);
+
+}
+
+.Fgriditem22{
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.Fgriditem22 a{
+   text-decoration: none;
+   color: rgb(6, 49, 8);
+}
+.iconsdiv{
+  margin-top: 30px;
+  text-align: center;
+}
+.iconsdiv a{
+  text-decoration: none !important;
+  padding: 5px !important;
+  color: rgb(6, 49, 8) !important;
+}
+
+
+.footericon{
+  height: 35px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+
+@media screen and (max-width:640px) {
+ .footergrid{
+   display: block;
+   text-align: center;
+   padding-top: 30px;
+ }
+ .Fgridcontainer{
+     display: block;
+ }
+ .fgriditem2{
+  margin-top: 70px;
+  padding-right: 0;
+ }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "new-wellnessz",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@thumbtack/thumbprint-react": "^14.18.0",
+    "axios": "^1.5.1",
+    "date-fns": "^2.30.0",
+    "firebase": "^10.5.0",
+    "framer-motion": "^10.16.4",
+    "isomorphic-fetch": "^3.0.0",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "next": "13.4.13",
+    "react": "^18.2.0",
+    "react-datepicker": "^4.20.0",
+    "react-datetime-picker": "^5.6.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.11.0",
+    "react-intersection-observer": "^9.5.2",
+    "react-modal": "^3.16.1",
+    "sass": "^1.69.7",
+    "slugify": "^1.6.6",
+    "suneditor": "^2.45.1",
+    "suneditor-react": "^3.6.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.48",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "^14.0.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "5.3.3"
+  },
+  "resolutions": {
+    "terser": "3.14.1"
+  }
+}

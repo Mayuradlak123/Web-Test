@@ -1,0 +1,93 @@
+.footercontainer{
+    max-width: 1200px;
+    padding-bottom: 100px;
+    margin: auto;
+    color: black;
+  }
+  .fbackground{
+    background-color: white;
+  }
+  .footergrid{
+    display: flex;
+  }
+  
+  .flogopara{
+    margin-top: 30px;
+  }
+  .flogopara p{
+  padding: 5px;
+  font-weight: 600;
+  font-family: 'Outfit', sans-serif;
+  }
+  
+  .fgriditem1{
+    margin-top: 30px;
+    flex: 1;
+    padding-left: 15px;
+  }
+  .fgriditem2{
+    flex: 1;
+    margin-top: 150px;
+    padding-right: 15px;
+  }
+  
+  
+  .Fgridcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 15px;
+  }
+  
+  .Fgriditem {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .Fgriditem11{
+    margin-bottom: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 19px;
+  }
+  
+  .Fgriditem22{
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  .Fgriditem22 a{
+     text-decoration: none;
+     color: black;
+  }
+  .iconsdiv{
+    margin-top: 30px;
+    text-align: center;
+  }
+  .iconsdiv a{
+    text-decoration: none !important;
+    padding: 5px !important;
+    color: black !important;
+  }
+  
+  
+  .footericon{
+    height: 35px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  
+  
+  @media screen and (max-width:640px) {
+   .footergrid{
+     display: block;
+     text-align: center;
+     padding-top: 30px;
+   }
+   .Fgridcontainer{
+       display: block;
+   }
+   .fgriditem2{
+    margin-top: 70px;
+    padding-right: 0;
+   }
+  }

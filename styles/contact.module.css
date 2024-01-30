@@ -1,0 +1,388 @@
+.firstbackground {
+    /* background-image: linear-gradient(to right top, #f5e4ed, #efe0ec, #e7dcec, #ded9eb, #d5d6e9, #cfd8ed, #c7daf1, #cfe0ed, #c6dee9, #caecf4, #b5edf0, #c0e3e0); */
+    /* background-image: linear-gradient(to right top, #f5e4ed, #efe0ec, #e7dcec, #ded9eb, #d5d6e9, #cfd8ed, #c7daf1, #b2d7f3, #c6dee9, #caecf4, #b5edf0, #94f2ea); */
+    background-color: #C1D6B1;
+}
+
+.top {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.screen1 {
+    position: absolute;
+    right: 270px;
+    margin-top: 68px;
+    margin-right: 44px;
+    opacity: 0.1;
+}
+
+.screen2 {
+    position: absolute;
+    right: 56px;
+    opacity: 0.1;
+}
+
+.mainImg {
+    opacity: 0.1;
+    z-index: 3;
+}
+
+.screen1 {
+    position: absolute;
+    right: 270px;
+    margin-top: 68px;
+    margin-right: 44px;
+    opacity: 0.1;
+    z-index: 3;
+}
+
+.screen2 {
+    position: absolute;
+    right: 56px;
+    opacity: 0.1;
+    z-index: 3;
+}
+
+.mainImg {
+    opacity: 0.1;
+}
+
+.lastgriditem2 button{
+    width: 350px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #7AC143;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.lastgriditem2 button a  {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.blog {
+    margin-top: -370px;
+    z-index: 9999;
+    position: relative;
+}
+
+
+.blog h1 {
+    text-align: center;
+    color: #393939;
+    font-family: 'Outfit', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.blog p {
+    color: #797979;
+    text-align: center;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.6;
+}
+
+.cChild {
+    padding: 15px;
+    z-index: 999;
+    position: relative;
+}
+
+
+.container {
+    max-width: 1100px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    background: #7AC143;
+    height: 500px;
+    border-radius: 25px;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+}
+
+.containerC {
+    margin: auto;
+    /* width: 55%; */
+}
+
+.containerCChild {
+    display: flex;
+}
+
+.c2 {
+    margin-top: -35px;
+    padding-left: 40px;
+}
+
+
+.c2 h2 {
+    color: #FFF;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.childchild {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    color: white;
+    padding-top: 15px;
+}
+
+.line {
+    width: 2px;
+    height: 43px;
+    background: #D2D2D2;
+    margin-left: 75px;
+}
+
+.second {
+    margin-top: 100px;
+}
+
+.second h2 {
+    color: #393939;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.secondflex {
+    display: flex;
+    justify-content: center;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.Asr {
+    color: #FFB831;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.column1{
+    width: 400px;
+}
+.para{
+    color: #797979;
+    margin-top: 20px;
+    width: 300px;
+}
+
+.back5 {
+    padding-bottom: 150px;
+    padding-top: 120px;
+}
+
+.givingmargin {
+    margin: 12px;
+}
+
+.lastcontainer {
+    /* height: 450px; */
+    max-width: 1150px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: white;
+    background-image: url("/backlogo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.lastgrid {
+    display: flex;
+}
+
+.lastgriditem1 {
+    flex: 1;
+}
+
+.lastgriditem2 {
+    flex: 1;
+    padding-left: 50px;
+}
+
+.imgcontainer {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.lastheading {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    color: #2c2b2b;
+    margin-top: 50px;
+}
+
+.lastgriditem2 p {
+    margin-top: 20px;
+    color: #5E5E5E;
+    font-weight: 600;
+
+}
+
+@media screen and (max-width:1220px){
+    .secondflex{
+        display: block;
+        text-align: center;
+    }
+    .column1{
+        margin: auto;
+        padding-bottom: 50px;
+        max-width: 96%;
+    }
+    .para{
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:1031px) {
+    .lastgrid {
+        display: block;
+        padding: 0;
+    }
+
+    .lastcontainer {
+        height: auto;
+        text-align: center;
+    }
+
+    .imgcontainer {
+        display: block;
+        padding: 0;
+    }
+
+    .lastgriditem2 {
+        padding: 0;
+    }
+
+    .lastgriditem2 p {
+        padding-bottom: 50px;
+        padding-top: 20px;
+        margin: 8px;
+    }
+
+    .lastheading {
+        margin: 8px;
+    }
+
+    .back5 {
+        padding-top: 20px;
+    }
+}
+
+
+@media screen and (max-width:805px){
+     .map{
+        max-width: 98%;
+        height: auto;
+     }
+}
+
+
+
+@media screen and (max-width:650px) {
+    .lastImgage {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:632px) {
+    .c2 h2 {
+        font-size: 25px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .childchild {
+        display: block;
+    }
+
+    .childchild div {
+        margin-bottom: 10px;
+    }
+
+    .container {
+        height: 250px;
+    }
+}
+
+
+@media screen and (max-width:509px) {
+    .mainImg {
+        width: 280px;
+        height: auto;
+    }
+     .lastgriditem2 button {
+        max-width: 245px;
+        height: 60px;
+    }
+
+    .screen2 {
+        height: 195px;
+        width: 81px;
+        right: 38px;
+    }
+
+    .screen1 {
+        height: 199px;
+        width: 68px;
+        right: 140px;
+        margin-top: 44px;
+    }
+    .blog{
+        margin-top: -200px;
+    }
+
+}
+
+
+@media screen and (max-width:384px) {
+    .containerCChild {
+        display: block;
+        text-align: center;
+    }
+
+    .c2 {
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    .childchild {
+        width: 100%;
+    }
+}
